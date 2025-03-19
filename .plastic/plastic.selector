@@ -1,0 +1,4 @@
+repository "Osanpo-Run@Daahaa@cloud"
+  path "/"
+    br "/main"
+    co "/main"
