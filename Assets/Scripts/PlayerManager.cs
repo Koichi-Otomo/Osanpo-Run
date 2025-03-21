@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    public float gamespeed = 100.0f;
+    public float gameSpeed = 0.00000000010f;
 
     void Start()
     {

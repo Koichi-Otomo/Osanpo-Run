@@ -1,19 +1,28 @@
 using UnityEngine;
 
-public class GroundContoroller : MonoBehaviour
+public class GroundController : MonoBehaviour
 {
     private PlayerManager playerManager;
-    private float movespeed = -1.0f;
+    public float moveSpeed = -0.010f;
+    private float elapsedTime = 0f;
+    public float acceleration = -0.01f; // 加速度
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        playerManager = FindObjectOfType<PlayerManager>();
+        if (playerManager == null)
+        {
+            Debug.LogError("PlayerManagerが見つかりません。");
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(movespeed * playerManager.gamespeed,0,0);
+        if (playerManager != null)
+        {
+            elapsedTime += Time.deltaTime;
+            float currentSpeed = moveSpeed + acceleration * elapsedTime;
+            transform.Translate(currentSpeed * playerManager.gameSpeed * Time.deltaTime, 0, 0);
+        }
     }
 }

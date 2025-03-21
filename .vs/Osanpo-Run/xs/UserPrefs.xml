@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{39628EAC-437C-C29D-C2A5-A1A0D80E7677}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GroundContoroller.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerManager.cs" Line="6" Column="5" />
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/GroundContoroller.cs" Line="11" Column="9" />
+      <File FileName="Assets/Scripts/GroundContoroller.cs" Line="8" Column="36" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a9b3f680-cfcb-408f-bace-46c4d08390dc" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de42a778-f8ab-40f9-bbe0-bd349e4f62cd" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
