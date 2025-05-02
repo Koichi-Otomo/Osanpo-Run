@@ -1,2 +1,2 @@
-built[[:space:]]program/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
 Library/PackageCache/com.unity.burst/.Runtime/* filter=lfs diff=lfs merge=lfs -text
+built[[:space:]]program/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
