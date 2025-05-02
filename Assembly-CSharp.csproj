@@ -61,15 +61,22 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.0.24f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/ObjectController.cs" />
     <Compile Include="Assets/Scripts/TitleSceneDirector.cs" />
     <Compile Include="Assets/Scripts/GameOverSceneDirector.cs" />
+    <Compile Include="Assets/Scripts/ScoreManager.cs" />
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/ObjectGenerator.cs" />
     <Compile Include="Assets/Scripts/PlayerManager.cs" />
-    <Compile Include="Assets/Scripts/GroundContoroller.cs" />
+    <Compile Include="Assets/Scripts/TutorialSceneDirector.cs" />
+    <Compile Include="Assets/Scripts/RankingSceneDirector.cs" />
+    <Compile Include="Assets/Scripts/RankingTextManager.cs" />
     <Compile Include="Assets/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Scripts/FinishScoreManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/TextMesh Pro/Fonts/japanese_full.txt" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />

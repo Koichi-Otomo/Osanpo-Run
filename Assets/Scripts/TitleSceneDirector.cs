@@ -7,4 +7,15 @@ public class TitleSceneDirector : MonoBehaviour
     {
         SceneManager.LoadScene("GameScene");
     }
+
+    public void TutorialButtonDown()
+    {
+        SceneManager.LoadScene("TutorialScene");
+    }
+
+    public void RankingButtonDown()
+    {
+        SceneManager.LoadScene("RankingScene");
+    }
+
 }

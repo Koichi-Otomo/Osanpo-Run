@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    Rigidbody2D rigid2D;
-    public float jumpForce = 500.0f; // publicに変更
+    private Rigidbody2D rigid2D;
+    public float jumpForce = 600.0f; // ジャンプの強さを定義
     private bool isGrounded; // 接地判定用フラグ
 
     void Start()
@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         // ジャンプ処理
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetMouseButtonDown(0) && isGrounded)
         {
             rigid2D.AddForce(transform.up * jumpForce);
             isGrounded = false; // ジャンプ後はfalseにする
@@ -24,17 +24,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground")
+            || collision.gameObject.CompareTag("Wall")
+            || collision.gameObject.CompareTag("Roof"))
         {
             isGrounded = true;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
         }
     }
 }

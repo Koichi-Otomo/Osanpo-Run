@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class GameOverSceneDirector : MonoBehaviour
 {
 
-    public void ContinueButtonDown()
+    public void RankingButtonDown()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("RankingScene");
     }
 
     public void RestartButtonDown()

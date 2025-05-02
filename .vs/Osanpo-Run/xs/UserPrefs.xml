@@ -1,16 +1,19 @@
 ﻿<Properties StartupConfiguration="{39628EAC-437C-C29D-C2A5-A1A0D80E7677}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GroundContoroller.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RankingTextManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/GroundContoroller.cs" Line="8" Column="36" />
+      <File FileName="Assets/Scripts/ObjectController.cs" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/PlayerManager.cs" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" />
+      <File FileName="Assets/Scripts/FinishScoreManager.cs" />
+      <File FileName="Assets/Scripts/RankingTextManager.cs" Line="20" Column="48" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="17" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Osanpo-Run" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="GroundContoroller.cs" selected="True" />
-              </Node>
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="de42a778-f8ab-40f9-bbe0-bd349e4f62cd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b25d42e2-c525-4ac8-b9a3-9471bb1e1015" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
