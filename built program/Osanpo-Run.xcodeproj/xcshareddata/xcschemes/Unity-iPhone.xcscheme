@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1630"
+   LastUpgradeVersion = "0500"
    version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
                BuildableName = "Osanpo-Run.app"
-               BlueprintName = "Osanpp-Run"
-               ReferencedContainer = "container:Osanpp-Run.xcodeproj">
+               BlueprintName = "Unity-iPhone"
+               ReferencedContainer = "container:Unity-iPhone.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,8 +32,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Osanpo-Run.app"
-            BlueprintName = "Osanpp-Run"
-            ReferencedContainer = "container:Osanpp-Run.xcodeproj">
+            BlueprintName = "Unity-iPhone"
+            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -42,9 +42,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5623C57217FDCB0800090B9E"
-               BuildableName = "Osanpp-Run Tests.xctest"
-               BlueprintName = "Osanpp-Run Tests"
-               ReferencedContainer = "container:Osanpp-Run.xcodeproj">
+               BuildableName = "Unity-iPhone Tests.xctest"
+               BlueprintName = "Unity-iPhone Tests"
+               ReferencedContainer = "container:Unity-iPhone.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,8 +71,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Osanpo-Run.app"
-            BlueprintName = "Osanpp-Run"
-            ReferencedContainer = "container:Osanpp-Run.xcodeproj">
+            BlueprintName = "Unity-iPhone"
+            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -88,8 +88,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
             BuildableName = "Osanpo-Run.app"
-            BlueprintName = "Osanpp-Run"
-            ReferencedContainer = "container:Osanpp-Run.xcodeproj">
+            BlueprintName = "Unity-iPhone"
+            ReferencedContainer = "container:Unity-iPhone.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
