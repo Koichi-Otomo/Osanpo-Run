@@ -1,91 +1,91 @@
 {
   "images" : [
     {
-      "filename" : "アイコン画像40*40 1.png",
+      "filename" : "アイコン画像40*40 1.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "アイコン画像60*60.png",
+      "filename" : "アイコン画像60*60.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "20x20"
     },
     {
-      "filename" : "アイコン画像57*57 1.png",
+      "filename" : "アイコン画像57*57 1.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "アイコン画像87*87.png",
+      "filename" : "アイコン画像87*87.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "29x29"
     },
     {
-      "filename" : "アイコン画像80*80 1.png",
+      "filename" : "アイコン画像80*80 1.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "アイコン画像120*120 1.png",
+      "filename" : "アイコン画像120*120 1.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "アイコン画像120*120.png",
+      "filename" : "アイコン画像120*120.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "アイコン画像180*180.png",
+      "filename" : "アイコン画像180*180.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
     },
     {
-      "filename" : "アイコン画像40*40.png",
+      "filename" : "アイコン画像40*40.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "20x20"
     },
     {
-      "filename" : "アイコン画像57*57.png",
+      "filename" : "アイコン画像57*57.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "29x29"
     },
     {
-      "filename" : "アイコン画像80*80.png",
+      "filename" : "アイコン画像80*80.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "アイコン画像76*76.png",
+      "filename" : "アイコン画像76*76.jpeg",
       "idiom" : "ipad",
       "scale" : "1x",
       "size" : "76x76"
     },
     {
-      "filename" : "アイコン画像154*154.png",
+      "filename" : "アイコン画像154*154.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "76x76"
     },
     {
-      "filename" : "アイコン画像167*167.png",
+      "filename" : "アイコン画像167*167.jpeg",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "アイコン画像1024*1024.png",
+      "filename" : "アイコン画像1024*1024.jpeg",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

@@ -358,6 +358,7 @@
 "Assets/Scripts/ScoreManager.cs"
 "Assets/Scripts/TitleSceneDirector.cs"
 "Assets/Scripts/TutorialSceneDirector.cs"
+"Assets/Unity.VisualScripting.Generated/VisualScripting.Core/AotStubs.cs"
 -langversion:9.0
 /deterministic
 /optimize+

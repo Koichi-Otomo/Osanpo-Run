@@ -211,6 +211,12 @@ extern "C" void UnityCleanupTrampoline()
     return [[window rootViewController] supportedInterfaceOrientations] | _forceInterfaceOrientationMask;
 }
 
+- (void)application:(UIApplication*)application willChangeStatusBarOrientation:(UIInterfaceOrientation)newStatusBarOrientation duration:(NSTimeInterval)duration
+{
+    // Setting orientation mask which is requested by iOS: see supportedInterfaceOrientationsForWindow above for details
+    _forceInterfaceOrientationMask = 1 << newStatusBarOrientation;
+}
+
 #endif
 
 #if UNITY_USES_REMOTE_NOTIFICATIONS

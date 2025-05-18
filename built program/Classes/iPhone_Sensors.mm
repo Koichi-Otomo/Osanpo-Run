@@ -630,6 +630,9 @@ static void ReportJoystickMotion(int idx, GCMotion* motion)
 
 static void ReportJoystick(GCController* controller, int idx)
 {
+    if (controller.controllerPausedHandler == nil)
+        controller.controllerPausedHandler = gControllerHandler;
+
     if ([controller extendedGamepad] != nil)
         ReportJoystickExtended(idx, [controller extendedGamepad]);
     else if ([controller microGamepad] != nil)
