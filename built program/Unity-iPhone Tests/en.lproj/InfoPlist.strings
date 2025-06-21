@@ -1,4 +1,2 @@
 /* Localized versions of Info.plist keys */
 
-Bundle version string, short (CFBundleShortVersionString)
-Bundle version (CFBundleVersion)
