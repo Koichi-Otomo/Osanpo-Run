@@ -71,11 +71,11 @@ public class PlayerNameManager : MonoBehaviour
 
     public string GetPlayerName()
     {
-        return $"{colors[selectedColorIndex]}{patterns[selectedPatternIndex]}";
+        return $"{colors[selectedColorIndex]}の{patterns[selectedPatternIndex]}ネコ";
     }
 
     public static string GetCurrentPlayerName()
     {
-        return PlayerPrefs.GetString("PlayerName", "黒色トラ");
+        return PlayerPrefs.GetString("PlayerName", "黒色のトラネコ");
     }
 }
