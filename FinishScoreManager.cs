@@ -80,7 +80,7 @@ public class FinishScoreManager : MonoBehaviour
             apiClient = apiObject.AddComponent<ApiClient>();
         }
         
-        string playerName = "Player"; // 実際にはプレイヤー名入力機能が必要
+        string playerName = PlayerNameManager.GetCurrentPlayerName();
         StartCoroutine(apiClient.SubmitScore(playerName, score, OnScoreSubmitted));
     }
 

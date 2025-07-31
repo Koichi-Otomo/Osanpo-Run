@@ -3,6 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class TitleSceneDirector : MonoBehaviour
 {
+    [SerializeField] private PlayerNameManager playerNameManager;
+
     public void StartButtonDown()
     {
         SceneManager.LoadScene("GameScene");
@@ -17,5 +19,4 @@ public class TitleSceneDirector : MonoBehaviour
     {
         SceneManager.LoadScene("RankingScene");
     }
-
 }
