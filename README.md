@@ -1,2 +1,0 @@
-# Osanpo-Run
-# Osanpo-Run
