@@ -1,5 +1,8 @@
+# Scripts folder specific
 *.meta
 .DS_Store
+
+# Unity generated files (if any)
 Temp/
 Library/
 Logs/
