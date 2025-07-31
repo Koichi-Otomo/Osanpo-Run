@@ -44,11 +44,10 @@ async void InitializeLevelPlay() // async キーワードを追加
     }
 }    
 
-    void SdkInitializationSuccessEvent(LevelPlayConfiguration configuration)
-    {
-        Debug.Log("LevelPlay SDK初期化成功");
-    }
-    
+void SdkInitializationSuccessEvent(LevelPlayConfiguration config)
+{
+    Debug.Log("LevelPlay SDK初期化成功");
+}    
     void SdkInitializationFailedEvent(LevelPlayInitError error)
     {
         Debug.LogError($"LevelPlay SDK初期化失敗: {error}");
