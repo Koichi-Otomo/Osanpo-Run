@@ -50,6 +50,16 @@ public class OnlineRankingManager : MonoBehaviour
 
     public void RefreshRanking()
     {
-        LoadOnlineRanking();
+        AdManager adManager = FindFirstObjectByType<AdManager>();
+        if (adManager != null)
+        {
+            adManager.ShowInterstitialAd(() => {
+                LoadOnlineRanking();
+            });
+        }
+        else
+        {
+            LoadOnlineRanking();
+        }
     }
 }
