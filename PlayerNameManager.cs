@@ -8,7 +8,7 @@ public class PlayerNameManager : MonoBehaviour
     [SerializeField] private TMP_Text previewText;
     
     private string[] colors = { "黒色", "白色", "灰色", "茶色", "焦茶色" };
-    private string[] patterns = { "トラ", "ミケ", "ブチ", "ハチワレ", "シャム" };
+    private string[] patterns = { "トラ", "ミケ", "ブチ", "ハチワレ", "シャム", "サビ" };
     
     private int selectedColorIndex = 0;
     private int selectedPatternIndex = 0;
