@@ -23,7 +23,7 @@ public class ObjectGenarator : MonoBehaviour
 
     void Start()
     {
-        playerManager = Object.FindFirstObjectByType<PlayerManager>();
+        playerManager = FindFirstObjectByType<PlayerManager>();
         if (playerManager == null)
         {
             Debug.LogError("PlayerManagerが見つかりません。");

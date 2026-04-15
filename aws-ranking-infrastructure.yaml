@@ -60,7 +60,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: !Sub '${Environment}-submit-score'
-      Runtime: python3.9
+      Runtime: python3.12
       Handler: index.lambda_handler
       Role: !GetAtt LambdaExecutionRole.Arn
       Environment:
@@ -112,7 +112,7 @@ Resources:
     Type: AWS::Lambda::Function
     Properties:
       FunctionName: !Sub '${Environment}-get-ranking'
-      Runtime: python3.9
+      Runtime: python3.12
       Handler: index.lambda_handler
       Role: !GetAtt LambdaExecutionRole.Arn
       Environment:

@@ -11,16 +11,6 @@ public class RankingSceneDirector : MonoBehaviour
 
     public void OnlineRankingButtonDown()
     {
-        AdManager adManager = FindFirstObjectByType<AdManager>();
-        if (adManager != null)
-        {
-            adManager.ShowInterstitialAd(() => {
-                SceneManager.LoadScene("OnlineRankingScene");
-            });
-        }
-        else
-        {
-            SceneManager.LoadScene("OnlineRankingScene");
-        }
+        SceneManager.LoadScene("OnlineRankingScene");
     }
 }
