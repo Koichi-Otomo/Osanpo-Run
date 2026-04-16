@@ -5,19 +5,24 @@ public class ScoreManager : MonoBehaviour
 {
     public int score = 0;
     private TMP_Text scoreText;
+    private int lastDisplayedScore = -1; // 前回表示したスコアをキャッシュ
 
-    // Start is called before the first frame update
     void Start()
     {
         score = 0;
         scoreText = GetComponent<TMP_Text>();
         scoreText.text = "score:0";
+        lastDisplayedScore = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        scoreText.text = "score:" + score.ToString();
+        // スコアが変わった時だけテキストを更新（毎フレームの文字列生成を回避）
+        if (score != lastDisplayedScore)
+        {
+            scoreText.text = "score:" + score.ToString();
+            lastDisplayedScore = score;
+        }
     }
 }
 

@@ -3,22 +3,22 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rigid2D;
-    public float jumpForce = 600.0f; // ジャンプの強さを定義
-    private bool isGrounded; // 接地判定用フラグ
+    public float jumpForce = 600.0f;
+    private bool isGrounded;
 
     void Start()
     {
         Application.targetFrameRate = 60;
-        this.rigid2D = GetComponent<Rigidbody2D>();
+        rigid2D = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        // ジャンプ処理
-        if (Input.GetMouseButtonDown(0) && isGrounded)
+        // タッチ・クリック両対応のジャンプ処理
+        if ((Input.GetMouseButtonDown(0) || (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)) && isGrounded)
         {
-            rigid2D.AddForce(transform.up * jumpForce);
-            isGrounded = false; // ジャンプ後はfalseにする
+            rigid2D.AddForce(Vector2.up * jumpForce);
+            isGrounded = false;
         }
     }
 
