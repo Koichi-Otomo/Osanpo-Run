@@ -1,0 +1,24 @@
+PODS:
+  - IronSourceAdQualitySDK (7.25.2)
+  - IronSourceSDK (8.10.0.0):
+    - IronSourceSDK/AdQuality (= 8.10.0.0)
+    - IronSourceSDK/Ads (= 8.10.0.0)
+  - IronSourceSDK/AdQuality (8.10.0.0):
+    - IronSourceAdQualitySDK (~> 7.25.2)
+  - IronSourceSDK/Ads (8.10.0.0)
+
+DEPENDENCIES:
+  - IronSourceSDK (= 8.10.0.0)
+
+SPEC REPOS:
+  trunk:
+    - IronSourceAdQualitySDK
+    - IronSourceSDK
+
+SPEC CHECKSUMS:
+  IronSourceAdQualitySDK: 639d5a93e15e823538f87b75f3809c4905afc30b
+  IronSourceSDK: 41b727888a5853a5489eb00115f26bb07044a76e
+
+PODFILE CHECKSUM: 8cc91b6f43af965fd4061ba2505529a9f08c869d
+
+COCOAPODS: 1.16.2

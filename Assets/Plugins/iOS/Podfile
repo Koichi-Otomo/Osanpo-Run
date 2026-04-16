@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '13.0'
+use_frameworks! :linkage => :static
+
+target 'UnityFramework' do
+  pod 'IronSourceSDK', '8.10.0.0'
+  pod 'IronSourceAdMobAdapter', '4.3.68.0'
+  pod 'IronSourceAPSAdapter', '4.3.20.1'
+  pod 'IronSourceFacebookAdapter', '4.3.51.0'
+  pod 'IronSourceUnityAdsAdapter', '4.3.54.0'
+end
+
+target 'Unity-iPhone' do
+  pod 'IronSourceSDK', '8.10.0.0'
+end
