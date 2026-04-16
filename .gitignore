@@ -30,6 +30,12 @@
 # Keystore (sensitive)
 *.keystore
 
+# macOS metadata
+**/.DS_Store
+
+# Store images (large binaries, manage outside Git)
+/Assets/StoreImages/
+
 # Visual Studio cache directory
 .vs/
 

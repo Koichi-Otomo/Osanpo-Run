@@ -1,4 +1,0 @@
-repository "Cloud Repositories/Osanpo-Run@15668935420380@cloud"
-  path "/"
-    br "/main"
-    co "/main"
